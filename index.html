@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="hi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#5b3424">
+  <meta name="description" content="बुद्ध धम्म - चैंटिंग, धम्म, चित्र, वीडियो और बौद्ध कैलेंडर">
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="style.css">
+  <title>बुद्ध धम्म</title>
+</head>
+<body>
+  <header class="hero">
+    <div class="lotus">☸</div>
+    <p class="welcome">नमो बुद्धाय • जय भीम</p>
+    <h1>बुद्ध धम्म</h1>
+    <p class="subtitle">धम्म, प्रज्ञा और करुणा का डिजिटल संगम</p>
+  </header>
+
+  <main>
+    <section class="intro">
+      <h2>आपका स्वागत है</h2>
+      <p>बुद्ध के विचारों, चैंटिंग और बौद्ध संस्कृति से जुड़ें। सामग्री धीरे-धीरे यहाँ जोड़ी जा सकती है।</p>
+    </section>
+
+    <section class="grid" aria-label="मुख्य सेक्शन">
+      <button class="tile" data-page="chanting"><span>🎵</span><b>चैंटिंग</b><small>बुद्धिस्ट गीत और पाली पाठ</small></button>
+      <button class="tile" data-page="images"><span>🪷</span><b>इमेज गैलरी</b><small>बुद्ध और बाबासाहेब</small></button>
+      <button class="tile" data-page="videos"><span>▶️</span><b>वीडियो</b><small>YouTube वीडियो</small></button>
+      <button class="tile" data-page="calendar"><span>📅</span><b>बौद्ध कैलेंडर</b><small>विशेष दिन और पर्व</small></button>
+      <button class="tile" data-page="dhamma"><span>📖</span><b>बुद्ध धम्म</b><small>उपदेश और लेख</small></button>
+      <button class="tile" data-page="about"><span>ℹ️</span><b>ऐप के बारे में</b><small>हमारा उद्देश्य</small></button>
+    </section>
+
+    <section id="content" class="content" hidden aria-live="polite">
+      <button id="back" class="back">← मुख्य पेज</button>
+      <h2 id="page-title"></h2>
+      <div id="page-body"></div>
+    </section>
+  </main>
+
+  <footer>नमो बुद्धाय • जय भीम</footer>
+  <script src="app.js"></script>
+</body>
+</html>
